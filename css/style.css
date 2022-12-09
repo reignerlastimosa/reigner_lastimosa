@@ -273,14 +273,14 @@ nav ul li a:hover{
 }
 
 .product .itemBox:nth-child(1){
-    background-image: url('images/pao_aquatics.png');
+    background-image: url('../images/pao_aquatics.png');
     background-position: center;
     background-size: cover;
     
 }
 
 .product .itemBox:nth-child(2){
-    background-image: url('images/lumen.png');
+    background-image: url('../images/lumen.png');
     background-position: center;
     background-size: cover;
 
@@ -288,28 +288,28 @@ nav ul li a:hover{
 
 
 .product .itemBox:nth-child(3){
-    background-image: url('images/global_covid_dashboard.png');
+    background-image: url('../images/global_covid_dashboard.png');
     background-position:center;
     background-size: cover;
 
 }
 
 .product .itemBox:nth-child(4){
-    background-image: url('images/real_estate.png');
+    background-image: url('../images/real_estate.png');
     background-position:center;
     background-size: cover;
 
 }
 
 .product .itemBox:nth-child(5){
-    background-image: url('images/metroq.png');
+    background-image: url('../images/metroq.png');
     background-position: center;
     background-size: cover;
 
 }
 
 .product .itemBox:nth-child(6){
-    background-image: url('images/wardrobe.png');
+    background-image: url('../images/wardrobe.png');
     
     background-size: cover;
 
