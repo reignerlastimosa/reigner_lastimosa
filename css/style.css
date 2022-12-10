@@ -121,7 +121,7 @@ nav ul li a:hover{
     border-right: solid 3px #960319;
     
     
-    white-space: normal;
+    white-space: nowrap;
     
     
     font-family: 'Source Code Pro', monospace;  
