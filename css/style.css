@@ -87,6 +87,7 @@ nav ul li a:hover{
     left:40%;
     transform:translateX(-40%);
     
+
     
 }
 
@@ -97,12 +98,13 @@ nav ul li a:hover{
     left:50%;
     cursor:pointer;
     transform:translateX(-50%);
+   
     
 }
 
 #contacts svg{
     color:white;
-    width:30px;
+    width:15%;
     height:30px;
     margin:3px;
 }
@@ -117,8 +119,11 @@ nav ul li a:hover{
 
 #bgdetails h3 {
     border-right: solid 3px #960319;
-    white-space: nowrap;
-    overflow: hidden;    
+    
+    
+    white-space: normal;
+    
+    
     font-family: 'Source Code Pro', monospace;  
     font-size: 28px;
     color: rgba(255,255,255,.70);
@@ -149,7 +154,7 @@ nav ul li a:hover{
 
   
   @keyframes animated-text{
-    0%{width: 0;}
+    0%{width: 0%;}
     25%{width: 25%;}
     50%{width: 50%;}
     75%{width: 75%;}
@@ -208,12 +213,12 @@ nav ul li a:hover{
     align-items:center;
     flex-wrap: wrap;
     margin:0 100px 0 100px;
-    
+    width:100%;
 }
 
 .product .itemBox {
     position:relative;
-    width:400px;
+    width:90%;
     height:300px;
     margin:10px;
     display:block;
@@ -372,7 +377,7 @@ nav ul li a:hover{
 
 #certification h1{
     text-align: center;
-    margin:50px auto;
+   
     
 }
 
@@ -408,6 +413,7 @@ nav ul li a:hover{
     padding-top:100px;
     width:60%;
     margin:50px auto;
+    
 }
 
 #footer{
@@ -488,6 +494,9 @@ nav ul li a:hover{
 
 
 @media(max-width:700px){
+
+   
+
     #bgdetails h3{
         font-size:12px;
     }
@@ -498,5 +507,9 @@ nav ul li a:hover{
 
     .carousel-item img{
         height:200px;
+    }
+
+    #certification h1{
+        font-size:16px;
     }
 }
